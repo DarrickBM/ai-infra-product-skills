@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "deployment-sizing",
+  "description": "私有化部署选型与测算：按方法论筛模型、按硬件筛可行、定编队形态与并发配比。方法论、模型目录、硬件规格随包发布。",
+  "author": { "name": "DarrickBM", "url": "https://github.com/DarrickBM" },
+  "keywords": ["deployment", "gpu", "model-selection", "capacity-planning"],
+  "skills": "./"
+}

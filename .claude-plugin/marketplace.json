@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ai-infra-product-skills",
+  "description": "AI 基础设施产品工作的 Agent Skill 库：私有化部署选型、硬件可行性与容量测算。",
+  "owner": {
+    "name": "DarrickBM",
+    "url": "https://github.com/DarrickBM/ai-infra-product-skills"
+  },
+  "plugins": [
+    {
+      "name": "deployment-sizing",
+      "source": "./",
+      "description": "把「一批 GPU + 一组业务场景」变成私有化部署方案：按方法论筛模型、按硬件筛可行、定编队形态与并发配比、配第三方佐证。方法论、模型目录、硬件规格随包发布，零外部凭据。",
+      "category": "productivity"
+    }
+  ]
+}
